@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Welcome</title>
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/resources/css/main.css">
 </head>
 <body>
 	<h1>Welcome</h1>
-	<p>${param.name}
+	<p>${name}
 </body>
 </html>
